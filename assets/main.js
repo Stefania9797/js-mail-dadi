@@ -13,7 +13,7 @@ for(var i = 0; i < validEmail.length; i++){
     }
 }
 //stampa un messaggio appropriato sull’esito del controllo.
-if(accesso){
+if(accesso==true){
     alert("Accesso autorizzato! Welcome to the party :D");
     }
     else{
